@@ -1,0 +1,25 @@
+# === TeleSentry: Build & Privacy Exclusions ===
+
+# Compiled Binaries
+*.exe
+*.dll
+bin/
+build/
+dist/
+
+# Session Data (CRITICAL: Private Data)
+/input/
+/output/
+/valid_sessions/
+*.session
+*.tdata
+hits.json
+
+# Logs & Cache
+*.log
+/cache/
+__pycache__/
+
+# Development
+.env
+venv/
